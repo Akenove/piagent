@@ -1,0 +1,14 @@
+node_modules/
+dist/
+data/
+.env
+*.db
+.DS_Store
+node_modules/
+dist/
+web-app/node_modules/
+data/
+branding/
+web-app/
+web/
+package-lock.json
