@@ -4,57 +4,56 @@
 
 # piagent 🥧
 
-The discord bot that does everything, and does it better than the ones charging you $12/month. Built for high-performance servers that need security, ai, and engagement in one package.
+discord bot. built different. does everything the $12/month ones do, except free and actually works.
 
-## features
+security, ai, engagement — one package. no bs.
 
-### 🛡️ security & protection
-- **anti-raid**: advanced mass join detection and automatic server lockdown
-- **anti-nuke**: real-time permission abuse monitoring with instant attacker perm stripping
-- **phishing protection**: url scanning, homoglyph detection, and malicious link blocking
-- **verification**: seamless button-based entry with configurable account age gates
-- **audit system**: detailed logging of all critical server events
+---
 
-### 🤖 ai integration
-- **multi-model chat**: support for gpt-4o, claude sonnet, and gemini via openrouter
-- **per-server personality**: define how the bot speaks in your server
-- **conversation memory**: keeps context of users' messages for a smarter chat experience
-- **summarization**: quickly get the gist of long threads or channels
-- **translation**: support for over 100+ languages
+## what it does
 
-### 📊 leveling & xp
-- **advanced leveling**: configurable message and voice xp with cooldowns
-- **dynamic rank cards**: custom-generated canvas cards for every user
-- **leaderboards**: track engagement by week, month, or all-time
-- **role rewards**: automatic role distribution at level milestones
+**security**
+- anti-raid — mass join detection, automatic lockdown
+- anti-nuke — real-time permission abuse, instant perm strip
+- phishing protection — url scanning, homoglyph detection, malicious link blocking
+- verification — button-based entry, configurable account age gates
+- full audit log
 
-### 💰 economy & engagement
-- **engagement games**: coinflip, blackjack, crash, dice, and more
-- **provably fair**: all games use seeds for verifiable randomness
-- **virtual economy**: rewards, transfers, and a virtual stonks market to keep the server active
+**ai**
+- context-aware chat with memory
+- moderation assist
+- custom personas per channel
 
-### 🛠️ server utility
-- **reaction roles**: easy button-based role management
-- **ticket system**: streamlined support tickets for staff
-- **engagement tools**: polls, giveaways, starboard, and reminders
+**engagement**
+- economy system
+- games (provably fair)
+- role management, reaction roles
+- server analytics
+
+---
+
+## stack
+
+```
+discord.js v14  ·  TypeScript  ·  SQLite (better-sqlite3)
+fastify  ·  drizzle ORM  ·  @napi-rs/canvas
+```
+
+---
 
 ## setup
 
 ```bash
-git clone https://github.com/Akenove/piagent.git
+git clone https://github.com/Akenove/piagent
 cd piagent
 npm install
-cp .env.example .env  # fill in your tokens
+cp .env.example .env  # fill in token, guildId, etc
 npm run build
 npm start
 ```
 
-## tech stack
-- typescript + discord.js v14
-- sqlite (better-sqlite3) + drizzle orm
-- openrouter for ai orchestration
-- @napi-rs/canvas for dynamic imaging
-- react + vite + hono for the web dashboard
+---
 
-## license
-MIT
+## contact
+
+**[@baked_pi01](https://x.com/baked_pi01)** · **[bakedpi.tech](https://bakedpi.tech)**
